@@ -5,8 +5,11 @@ import java.util.List;
 
 public class ArmyRepository {
 
+  private List<String> Soldiers = new ArrayList<>();
+
   public ArmyRepository() {
-    List<String> Soldiers = new ArrayList<>();
+
+
     Soldiers.add("Anders");
     Soldiers.add("Peter");
     Soldiers.add("Pia");
